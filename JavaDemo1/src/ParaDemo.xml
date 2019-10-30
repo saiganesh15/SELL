@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  
+  	<parameter name = "Location" value = "Hyderabad" />
+ 	 	<parameter name = "Designer" value = "Playgod" />	
+    <classes>
+      <class name="Demowebshop.ParaDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+
+Feature: DemoWeb Shop Login
+
+
+  Scenario: Successful Login
+    Given User is on demowebshop
+    And Chooses tp click on login
+    When User enter email and password
+    And Clicks on login
+    Then He sees his user homepage
+   
+
+

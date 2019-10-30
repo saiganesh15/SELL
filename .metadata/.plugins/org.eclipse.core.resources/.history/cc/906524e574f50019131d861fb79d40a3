@@ -1,0 +1,9 @@
+package Mydemo.Mydemo;
+
+import org.testng.annotations.Test;
+
+public class ShareCreationDemo {
+  @Test
+  public void f() {
+  }
+}

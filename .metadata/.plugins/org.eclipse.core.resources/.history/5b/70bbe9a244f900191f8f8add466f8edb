@@ -1,0 +1,19 @@
+//
+Feature: DemoWeb Shop Login
+
+
+  Scenario Outline: Successful Login
+    Given User is on demowebshop
+    And Chooses tp click on login
+    When User enter "<Email>" and "<Password>"
+    And Clicks on login
+    Then He sees his user homepage
+   
+Examples:
+	|Email								| Password		|
+	|karthik456@gmail.com |	karthik456	|
+	|anikhil@gmail.com		| nikhil123		|
+   
+
+
+

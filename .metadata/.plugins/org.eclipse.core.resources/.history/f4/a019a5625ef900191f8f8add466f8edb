@@ -1,0 +1,16 @@
+
+Feature: Checking No of items in cart
+ 
+
+
+  Scenario:   Cart
+    Given Alex is on DemoWeb Shop Homepage
+    And Choose to Click on login link
+    When Alex enters the details username and password
+    And Clicks on login button
+    Then Alex sees his user homepage
+    When Alex clicks on Shopping Cart
+    Then Alex sees Your Shopping Cart is empty
+
+
+

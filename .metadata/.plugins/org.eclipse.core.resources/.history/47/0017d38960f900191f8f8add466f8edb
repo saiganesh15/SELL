@@ -1,0 +1,10 @@
+Feature: Checking No of items in cart
+
+  Scenario:  Invalid Add to Cart 
+    Given Alex is on DemoWeb Shop Homepage
+    And Login to his account
+    When Alex clicks on Shopping Cart
+    Then Alex sees Your Shopping Cart is empty
+
+
+

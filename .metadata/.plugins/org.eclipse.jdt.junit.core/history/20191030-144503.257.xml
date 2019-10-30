@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testRunner (1)" project="CASE" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="CS.testRunner" time="16.782">
+    <testsuite name="Feature: DemoWeb Shop Login Verification" time="16.782">
+      <testcase name="Login with registered username and password" classname="DemoWeb Shop Login Verification" time="16.782"/>
+    </testsuite>
+  </testsuite>
+</testrun>

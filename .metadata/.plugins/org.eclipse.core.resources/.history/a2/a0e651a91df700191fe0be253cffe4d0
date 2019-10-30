@@ -1,0 +1,32 @@
+package StepDefinitions;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class cucu1login {
+	@Given("user is on FB login page")
+	public void user_is_on_FB_login_page() 
+	{
+	    
+	}
+
+	@When("user provides correct credentials")
+	public void user_provides_correct_credentials() 
+	{
+	  
+	}
+
+	@Then("user is on homepage")
+	public void user_is_on_homepage() 
+	{
+	   
+	}
+
+	@Then("sees tje title of the page is facebook")
+	public void sees_tje_title_of_the_page_is_facebook() 
+	{
+	    
+	}
+
+}

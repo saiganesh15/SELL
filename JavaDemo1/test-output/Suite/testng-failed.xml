@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Designer" value="Playgod"/>
+    <parameter name="Location" value="Hyderabad"/>
+    <classes>
+      <class name="Demowebshop.ParaDemo">
+        <methods>
+          <include name="f"/>
+          <include name="g"/>
+        </methods>
+      </class> <!-- Demowebshop.ParaDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

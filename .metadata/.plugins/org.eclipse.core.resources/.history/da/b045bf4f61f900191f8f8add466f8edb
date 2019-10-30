@@ -1,0 +1,47 @@
+package CaseStudy4;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class CS4 
+{
+	WebDriver p;
+	@Given("Alex is on DemoWeb Shop Homepage")
+	public void Alex_is_on_DemoWeb_Shop_Homepage() 
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\My Drivers\\chromedriver.exe");
+		p = new ChromeDriver();
+		p.get("http://demowebshop.tricentis.com/");
+	}
+
+	@Given("Login to his account")
+	public void Login_to_his_account() throws InterruptedException 
+	{
+		
+		p.findElement(By.xpath("//a[text()='Log in']")).click();
+		p.findElement(By.xpath("//*[@id=\"Email\"]")).sendKeys("play@g.com");
+		p.findElement(By.xpath("//*[@id=\"Password\"]")).sendKeys("play12345");
+		p.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[5]/input")).click();
+		Thread.sleep(3000);
+		
+	}
+
+	@When("Alex clicks on Shopping Cart")
+	public void Alex_clicks_on_Shopping_Cart() 
+	{
+		p.findElement(By.xpath("//*[@id=\"topcartlink\"]/a/span[1]")).click();
+	}
+
+	
+	@Then("Alex sees Your Shopping Cart is empty")
+	public void Alex_sees_Your_Shopping_Cart_is_empty() 
+	{
+	    //boolean t=p.findElement(By.xpath("/html/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a")).isDisplayed();
+	    //Assert.assertTrue(t);
+	}
+}

@@ -1,0 +1,76 @@
+C:\Jenkins
+
+---->java -jar jenkins.war --hhtpPort=5419
+
+http://localhost:8080
+
+
+---->http://localhost:5419
+
+Elements of JMeter
+Users: Thread Group
+-->Sampler ....Kind of request 
+HTTP request
+JDBC Request
+etc..
+-->Logic controller
+Recording controller 
+-->assertions 
+Duration
+Response(code ,message,tags...)
+-->Cookie manager
+Browser cache things
+-->Testplan
+-->Non test UI
+
+-->Pre-processor
+
+-->Post processor
+
+-->Parametization
+
+-->Corelation
+one step outcome serving as input for another step
+-->Regular Expression
+
+-->Loop controller
+
+-->Recording controller
+
+-->Response/result window
+
+
+file edit is menu bar
+below is tool bar...
+
+
+result file is .jkm file in JMeter
+
+Regular expression ---- <tag>(.+?)</tag>
+
+URL: http://the-internet.herokuapp.com/login
+
+
+
+<h4 class="subheader">This is where you can log into
+ the secure area. Enter <em>tomsmith</em> for the username and 
+<em>SuperSecretPassword!</em> for the password. If the 
+information is wrong you should see error messages.</h4>
+
+
+This is where you can log into the secure area. Enter tomsmith for 
+the username and SuperSecretPassword! for the password. If the 
+information is wrong you should see error messages.
+
+Enter <em>tomsmith</em> for the
+Enter <em>smith</em> for the
+Enter <em>tom</em> for the
+Enter <em>toith</em> for the
+
+Enter <em>(.+?)</em> for the
+
+username and <em>SuperSecretPassword!</em> for the
+username and <em>SuperPassword!</em> for the
+username and <em>(.+?)</em> for the
+
+

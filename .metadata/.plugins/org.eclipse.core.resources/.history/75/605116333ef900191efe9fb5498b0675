@@ -1,0 +1,42 @@
+package StepDefinitions;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class DemoLogin {
+
+	@Given("User is on demowebshop")
+	public void user_is_on_demowebshop() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@Given("Chooses tp click on login")
+	public void chooses_tp_click_on_login() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("User enter email and password")
+	public void user_enter_email_and_password() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("Clicks on login")
+	public void clicks_on_login() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@Then("He sees his user homepage")
+	public void he_sees_his_user_homepage() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+
+	}
+
+

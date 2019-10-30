@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="CASE" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="myRunner.TestRunner" time="0.0">
+    <testsuite name="Feature: DemoWeb Shop Registration" time="0.0">
+      <testcase name="Multiple User Registration" classname="DemoWeb Shop Registration" time="0.0">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "User is on demowebshop" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "Chooses to click on register" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User enters the details "male" and "karthik" and "kar" and "thik456789@gmail.com" and "karthik45678" and "karthik45678"" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "Clicks on register" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="Multiple User Registration" classname="DemoWeb Shop Registration" time="0.0">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "User is on demowebshop" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "Chooses to click on register" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User enters the details "male" and "anikhil" and "khil" and "khil789@gmail.com" and "nikhil12378" and "nikhil12378"" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "Clicks on register" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="Multiple User Registration" classname="DemoWeb Shop Registration" time="0.0">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "User is on demowebshop" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "Chooses to click on register" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "User enters the details "female" and "acath" and "cath" and "th789@gmail.com" and "cathy12378" and "cathy12378"" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "Clicks on register" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,10 @@
+Feature: Facebook Login 
+Facebook login should be quick and friendly
+
+Scenario: Successful logged in
+Registered users be greeted personally by the site
+
+Given I have choosen logged in
+When I logged in with valid details
+Then I should see the profile page
+And I should able to check new posts
